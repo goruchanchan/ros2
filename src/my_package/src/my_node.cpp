@@ -11,8 +11,7 @@
 #undef NDEBUG
 
 namespace {
-//std::string exampleMapPath = std::string(PKG_DIR) + "/../lanelet2_maps/res/mapping_example.osm";
-std::string exampleMapPath = "/root/mapping_example.osm";
+std::string exampleMapPath = "./data/mapping_example.osm";
 }  // namespace
 
 void part1CreatingAndUsingRoutingGraphs();
